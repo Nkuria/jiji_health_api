@@ -47,4 +47,6 @@ end
 
 gem 'bcrypt'
 gem 'jwt'
+gem 'rack-cors'
 
+gem 'faker'
