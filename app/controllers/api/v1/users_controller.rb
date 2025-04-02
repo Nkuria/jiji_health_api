@@ -31,7 +31,7 @@ module Api
             email: @user.email
           }
         else
-          head :unauthorized
+          render json: {message: 'Invalid Email or Password'}, status: :unauthorized
         end
       end
 
